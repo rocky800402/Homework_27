@@ -58,7 +58,7 @@ public class Homework01 {
 	
 	public static void test06() {
 		System.out.println(5+5); //5+5為整數相加
-		System.out.println(5+'5');//第一個5為整數,第二個5為字元,該字元為10進位ASCII編碼=53,故5+53=58
+		System.out.println(5+'5');//第一個5為整數,第二個5為字元,該字元為10進位Unicode編碼=53,故5+53=58
 		System.out.println(5+"5");//第二個5為字串非整數值,輸出後整數5會直接串連字串5
 	}
 
