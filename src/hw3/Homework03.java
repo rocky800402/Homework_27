@@ -2,8 +2,6 @@ package hw3;
 
 import java.util.Scanner;
 
-import javax.swing.text.DefaultCaret;
-
 public class Homework03 {
 static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
