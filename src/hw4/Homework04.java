@@ -8,18 +8,18 @@ public class Homework04 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		test01();
-//		System.out.println("\n=================");
-//		System.out.println(test02("Hello World"));
-//		System.out.println("=================");
-//		test03();
-//		System.out.println("=================");
-//		test04();
-//		System.out.println("\n=================");
+		test01();
+		System.out.println("\n=================");
+		System.out.println(test02("Hello World"));
+		System.out.println("=================");
+		test03();
+		System.out.println("=================");
+		test04();
+		System.out.println("\n=================");
 		test05();
 		System.out.println("=================");
-//		test06();
-//		System.out.println("\n=================");
+		test06();
+		System.out.println("\n=================");
 	}
 
 	public static void test01() {
@@ -149,10 +149,14 @@ public class Homework04 {
 	
 	public static int totalDays(int month,int day,int[] dataDays) {
 		int sum=0;
-		for (int i = 0; i < month; i++) {
+		if(month == 1) {
+			sum += day;
+		}else {
+			for (int i = 0; i < month-1; i++) {
 			sum+=dataDays[i];
+			}
+			sum +=day;
 		}
-		sum = sum-dataDays[month-1]+day;
 		return sum;
 	}
 }
