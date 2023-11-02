@@ -7,7 +7,7 @@ public class Homework01 {
 		test01();
 		System.out.println("------------------------");
 		test02();
-		System.out.println("--------------------");
+		System.out.println("-----------------------");
 		test03();
 		System.out.println("--------------------");
 		test04();
